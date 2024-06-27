@@ -8,7 +8,7 @@ import Image3 from "../assets/image3.avif";
 import Image2 from "../assets/stock-photo-data-science-and-big-data-technology-scientist-computing-analysing-and-visualizing-complex-data-2284126663.jpg";
 import Demo from "../assets/pexels-photo-3183197.jpeg";
 import HomeCard from "../component/block/HomeCard";
-import Carocel from "../component/Carocel";
+// import Carocel from "../component/Carocel";
 
 // import NewPostPage from "../pages/NewPostPage/";
 
@@ -16,7 +16,7 @@ const HomePage = () => {
   return (
     <Container>
       <CarocelHolder>
-        <Carocel />
+        {/* <Carocel /> */}
       </CarocelHolder>
       <Holder>
         <HomeCard
